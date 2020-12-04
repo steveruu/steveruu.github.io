@@ -120,7 +120,7 @@ a {
 }
 
 .pes1 {
-  color: #00CD61
+  color: #00CD61;
 }
 
 .pes1m {
@@ -140,7 +140,7 @@ a {
 }
 
 .pes3m {
-  color: darkorange;
+  color: red;
 }
 
 .pes4 {
@@ -148,11 +148,11 @@ a {
 }
 
 .pes4m {
-  color: darkred
+  color: darkred;
 }
 
 .pes5 {
-  color: #401089
+  color: #401089;
 }
 
 .pes5m {
