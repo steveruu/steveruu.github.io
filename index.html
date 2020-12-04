@@ -1,7 +1,167 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <script>
+    var stupen = 3;
+
+
+  </script>
+
+  <title>AktualniStupenPES.com</title>
+
+  <link rel="stylesheet" href="css/main.css?v=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
-<h1>Test</h1>
-<p>Lorem ipsum dolor sit amet</p>
+  <h1 class="russoone center forty">Aktuální stupeň PES:</h1>
+  <h1 class="ubuntu pes center darkorange">
+    <span id="output" class="var">
+      <script>
+        document.write(stupen);
+        if (stupen === 1) {
+          document.documentElement.style
+          .setProperty('--pescolor', '#00CD61');}
+        else if (stupen === 2) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#F1D302');
+        }
+        else if (stupen === 3) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#F75A1C');
+        }
+        else if (stupen === 4) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#D31145');
+        }
+        else if (stupen === 5) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#401089');
+        }
+        else {
+          document.documentElement.style
+            .setProperty('--pescolor', '#00CD61');
+        }
+
+      </script>
+    </span>
+  </h1>
+  <h1 class="russoone center forty">Aktuální opatření k tomuto stupni:</h1>
+  <div class="roboto center">
+    <span class="roboto center forty">
+      <strong>Roušky: </strong></span><br>
+    <span class="roboto center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("Ve vymezených vnitřních prostorech a ve veřejné dopravě\n");
+        } else if (stupen === 2) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else if (stupen === 3) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else if (stupen === 4) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else if (stupen === 5) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else {
+          document.write("Ne");
+        }
+      </script>
+    </span>
+  </div><br>
+  <div class="roboto center">
+    <span class="roboto center forty">
+      <strong>Shromažďování: </strong></span><br>
+    <span class="roboto center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("500 osob venku, 100 uvnitř");
+        } else if (stupen === 2) {
+          document.write("100 osob venku, 50 osob uvnitř");
+        } else if (stupen === 3) {
+          document.write("50 osob venku, 10 osob uvnitř");
+        } else if (stupen === 4) {
+          document.write("6 osob");
+        } else if (stupen === 5) {
+          document.write("2 osoby");
+        } else {
+          document.write("Normální");
+        }
+      </script>
+    </span>
+  </div><br><div class="roboto center">
+    <span class="roboto center forty">
+      <strong>Školství: </strong></span><br>
+    <span class="roboto center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("Prezenční výuka");
+        } else if (stupen === 2) {
+          document.write("Prezenční výuka");
+        } else if (stupen === 3) {
+          document.write("Prezenční výuka: MŠ, speciální školy a 1. stupeň ZŠ. Rotační prezenční výuka: 2. stupeň ZŠ, SŠ a VOŠ s výjimkami. Distanční výuka: VŠ s výjimkami; 1. ročníky prezenční výuka");
+        } else if (stupen === 4) {
+          document.write("Prezenční výuka: MŠ, speciální školy a 1. stupeň ZŠ. Rotační prezenční výuka: 2. stupeň ZŠ s výjimkami. Distanční výuka: SŠ, VOŠ a VŠ s výjimkami");
+        } else if (stupen === 5) {
+          document.write("Distanční výuka s výjimkou MŠ, speciálních škol a 1. a 2. ročníků ZŠ.");
+        } else {
+          document.write("Prezenční výuka.");
+        }
+      </script>
+    </span>
+  </div>
+  <br><div class="roboto center">
+  <span class="roboto center forty">
+      <strong>Obchody: </strong></span><br>
+      <span class="tricetpet"><strong>Maloobchody:</strong><br></span>
+    <span class="roboto center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("4 osoby na 15m2, rozestupy 2m mezi zákazníky");
+        } else if (stupen === 2) {
+          document.write("2 osoby na 15m2, rozestupy 2m mezi zákazníky");
+        } else if (stupen === 3) {
+          document.write("1 osoba na 15m2, rozestupy 2m mezi zákazníky.");
+        } else if (stupen === 4) {
+          document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+        } else if (stupen === 5) {
+          document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+        } else {
+          document.write("NaN");
+        }
+      </script>
+      <br><br><span class="tricetpet"><strong>Nákupní centra: </strong></span><br>
+    </span><span class="roboto center tricet">
+    <script>
+       if (stupen === 1) {
+         document.write("4 osoby na 15m2, rozestupy 2m mezi zákazníky");
+       } else if (stupen === 2) {
+         document.write("2 osoby na 15m2, rozestupy 2m mezi zákazníky. Omezení otevírací doby jídelních a dětských koutků do 22 hodin.");
+       } else if (stupen === 3) {
+         document.write("1 osoba na 15m2, rozestupy 2m mezi zákazníky. Omezení jídelních koutků pouze na výdejní okénko, uzavření dětských koutků.");
+       } else if (stupen === 4) {
+         document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+       } else if (stupen === 5) {
+         document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+       } else {
+         document.write("NaN");
+       }
+    </script>
+  </span>
+  </div>
+<script>
+
+</script>
+
 </body>
 </html>
