@@ -1,0 +1,57 @@
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.center {
+  text-align: center;
+}
+.majormonodisplay {
+  font-family: 'Major Mono Display', monospace;
+}
+.russoone {
+  font-family: 'Russo One', sans-serif;
+}
+.forty {
+  font-size: 40px;
+}
+.tricetpet {
+  font-size: 35px;
+}
+
+.tricet {
+  font-size: 30px;
+}
+
+.pes {
+  font-size: 300px;
+}
+
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.orange {
+  color: orange;
+}
+
+.darkorange {
+  color: darkorange;
+}
+
+.red {
+  color: red;
+}
+
+.cyan {
+  color: cyan;
+}
+
+.pink {
+  color: pink;
+}
+:root {
+  --pescolor: #999999;
+}
+
+.var {
+  color: var(--pescolor)
+}
