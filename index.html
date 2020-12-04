@@ -6,9 +6,10 @@
 
   <script>
     var stupen = 3; // literally to, co řídí celou stránku :DDDDDD
+    var cisloidkkcemualejetam = "41–60";
   </script>
 
-  <title>AktualniStupenPES.com</title>
+  <title>AktualniStupenPES</title>
 
   <link rel="stylesheet" href="css/main.css?v=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,16 +31,24 @@
 <body>
 <header class="center inside-header" id="myHeader">
   <span class="center tricetpet ubuntu inside-header fixed">
-  AktualniStupenPES.com
+    <a href="index.html">AktualniStupenPES</a>
   </span>
+<br>
+  <span class="center tricet alegreya">
+    <a href="opatreni1.html">PES 1 |</a>
+    <a href="opatreni2.html">PES 2 |</a>
+    <a href="opatreni3.html">PES 3 |</a>
+    <a href="opatreni4.html">PES 4 |</a>
+    <a href="opatreni5.html">PES 5 |</a>
  </span>
-</header>
+</header> 
 <!--<h1 class="russoone center forty">TOTO JE BETA VERZE PŘIPRAVOVANÉ STRÁNKY!</h1>-->
 <h1 class="helvetica center forty">Aktuální stupeň PES:</h1>
   <h1 class="ubuntu pes center darkorange">
     <span id="output" class="var">
       <script>
         document.write(stupen);
+
         if (stupen === 1) {
           document.documentElement.style
           .setProperty('--pescolor', '#00CD61');}
@@ -64,6 +73,17 @@
             .setProperty('--pescolor', '#00CD61');
         }
 
+      </script>
+    </span>
+  </h1>
+  <h1 class="ubuntu pesNumber center darkorange">
+    <span class="var">
+      <script>
+        if (stupen === 1) { document.write("0–20"); }
+        if (stupen === 2) { document.write("21–40"); }
+        if (stupen === 3) { document.write("41–60"); }
+        if (stupen === 4) { document.write("61–75"); }
+        if (stupen === 5) { document.write("76-100"); }
       </script>
     </span>
   </h1>
@@ -191,7 +211,6 @@
 <br>
 <span class="center merriweather">
   <div>Štěpán Prchal, 2020©</div>
-  <div>
 </span>
 <br><br><br><br>
 </body>
