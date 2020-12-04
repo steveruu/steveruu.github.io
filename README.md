@@ -1,3 +1,2 @@
-# steveruu.github.io
-WebsiteTest
-srajda
+# Webová stránka 
+https://steveruu.github.io
