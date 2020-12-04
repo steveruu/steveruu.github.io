@@ -5,9 +5,7 @@
   <meta charset="utf-8">
 
   <script>
-    var stupen = 3;
-
-
+    var stupen = 3; // literally to, co řídí celou stránku :DDDDDD
   </script>
 
   <title>AktualniStupenPES.com</title>
@@ -21,12 +19,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Merriweather+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
-<h1 class="russoone center forty">TOTO JE BETA VERZE PŘIPRAVOVANÉ STRÁNKY!</h1>
-<h1 class="russoone center forty">Aktuální stupeň PES:</h1>
+<header class="center inside-header" id="myHeader">
+  <span class="center tricetpet ubuntu inside-header fixed">
+  AktualniStupenPES.com
+  </span>
+ <span>
+   <br>
+   Made by
+     <a href="https://www.instagram.com/steveruu/">steveruu</a>
+ </span>
+</header>
+<!--<h1 class="russoone center forty">TOTO JE BETA VERZE PŘIPRAVOVANÉ STRÁNKY!</h1>-->
+<h1 class="helvetica center forty">Aktuální stupeň PES:</h1>
   <h1 class="ubuntu pes center darkorange">
     <span id="output" class="var">
       <script>
@@ -58,11 +71,11 @@
       </script>
     </span>
   </h1>
-  <h1 class="russoone center forty">Aktuální opatření k tomuto stupni:</h1>
+  <h1 class="helvetica center forty">Aktuální opatření k tomuto stupni:</h1>
   <div class="roboto center">
-    <span class="roboto center forty">
+    <span class="merriweather center forty var">
       <strong>Roušky: </strong></span><br>
-    <span class="roboto center tricet">
+    <span class="monsterat center tricet">
       <script>
         if (stupen === 1) {
           document.write("Ve vymezených vnitřních prostorech a ve veřejné dopravě\n");
@@ -79,11 +92,11 @@
         }
       </script>
     </span>
-  </div><br>
+  </div><br><br>
   <div class="roboto center">
-    <span class="roboto center forty">
+    <span class="merriweather center forty var">
       <strong>Shromažďování: </strong></span><br>
-    <span class="roboto center tricet">
+    <span class="monsterat center tricet">
       <script>
         if (stupen === 1) {
           document.write("500 osob venku, 100 uvnitř");
@@ -100,10 +113,10 @@
         }
       </script>
     </span>
-  </div><br><div class="roboto center">
-    <span class="roboto center forty">
+  </div><br><br><div class="roboto center">
+    <span class="merriweather center forty var">
       <strong>Školství: </strong></span><br>
-    <span class="roboto center tricet">
+    <span class="monsterat center tricet">
       <script>
         if (stupen === 1) {
           document.write("Prezenční výuka");
@@ -121,11 +134,11 @@
       </script>
     </span>
   </div>
-  <br><div class="roboto center">
-  <span class="roboto center forty">
-      <strong>Obchody: </strong></span><br>
-      <span class="tricetpet"><strong>Maloobchody:</strong><br></span>
-    <span class="roboto center tricet">
+  <br><br><div class="roboto center">
+  <span class="merriweather center forty var">
+      <strong>Obchody: </strong></span><br><br>
+      <span class="tricetpet alegreya darkorange"><strong>Maloobchody:</strong><br></span>
+    <span class="monsterat center tricet">
       <script>
         if (stupen === 1) {
           document.write("4 osoby na 15m2, rozestupy 2m mezi zákazníky");
@@ -141,8 +154,8 @@
           document.write("NaN");
         }
       </script>
-      <br><br><span class="tricetpet"><strong>Nákupní centra: </strong></span><br>
-    </span><span class="roboto center tricet">
+      <br><br><span class="tricetpet alegreya darkorange"><strong>Nákupní centra: </strong></span><br>
+    </span><span class="monsterat center tricet">
     <script>
        if (stupen === 1) {
          document.write("4 osoby na 15m2, rozestupy 2m mezi zákazníky");
@@ -161,8 +174,28 @@
   </span>
   </div>
 <script>
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
 
+  // Get the header
+  var header = document.getElementById("myHeader");
+
+  // Get the offset position of the navbar
+  var sticky = header.offsetTop;
+
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
 </script>
-
+<br>
+<h2 class="center alegreya">Štěpán Prchal 2020©</h2>
+<footer>
+<br><br><br>
+</footer>
 </body>
 </html>
