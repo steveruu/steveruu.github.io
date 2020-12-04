@@ -25,6 +25,9 @@
   font-size: 300px;
 }
 
+.pesNumber {
+  font-size: 150px;
+}
 .ubuntu {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -114,4 +117,44 @@ html, body {
 a {
   text-decoration: none;
   color: black;
+}
+
+.pes1 {
+  color: #00CD61
+}
+
+.pes1m {
+  color: darkgreen;
+}
+
+.pes2 {
+  color: #F1D302;
+}
+
+.pes2m {
+  color: orange;
+}
+
+.pes3 {
+  color: #F75A1C;
+}
+
+.pes3m {
+  color: darkorange;
+}
+
+.pes4 {
+  color: #D31145;
+}
+
+.pes4m {
+  color: darkred
+}
+
+.pes5 {
+  color: #401089
+}
+
+.pes5m {
+  color: purple;
 }
