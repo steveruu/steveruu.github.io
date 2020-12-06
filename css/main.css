@@ -54,9 +54,17 @@
 :root {
   --pescolor: #999999;
 }
+:root {
+  --pesMcolor: #999999;
+}
+
 
 .var {
   color: var(--pescolor)
+}
+
+.varM {
+  color: var(--pesMcolor)
 }
 
 body {
@@ -158,3 +166,8 @@ a {
 .pes5m {
   color: purple;
 }
+
+.doprava {
+  text-align: right
+}
+
