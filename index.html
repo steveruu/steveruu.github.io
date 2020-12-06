@@ -51,26 +51,38 @@
 
         if (stupen === 1) {
           document.documentElement.style
-          .setProperty('--pescolor', '#00CD61');}
+          .setProperty('--pescolor', '#00CD61');
+            document.documentElement.style
+            .setProperty('--pesMcolor', 'darkgreen'); }
         else if (stupen === 2) {
           document.documentElement.style
             .setProperty('--pescolor', '#F1D302');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'orange');
         }
         else if (stupen === 3) {
           document.documentElement.style
             .setProperty('--pescolor', '#F75A1C');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'red')
         }
         else if (stupen === 4) {
           document.documentElement.style
             .setProperty('--pescolor', '#D31145');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'darkred')
         }
         else if (stupen === 5) {
           document.documentElement.style
             .setProperty('--pescolor', '#401089');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'purple');
         }
         else {
           document.documentElement.style
             .setProperty('--pescolor', '#00CD61');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', '#00CD61');
         }
 
       </script>
@@ -84,6 +96,7 @@
         if (stupen === 3) { document.write("41–60"); }
         if (stupen === 4) { document.write("61–75"); }
         if (stupen === 5) { document.write("76-100"); }
+        else { document.write(); }
       </script>
     </span>
   </h1>
@@ -153,7 +166,7 @@
   <br><br><div class="roboto center">
   <span class="merriweather center forty var">
       <strong>Obchody: </strong></span><br><br>
-      <span class="tricetpet alegreya darkorange"><strong>Maloobchody:</strong><br></span>
+      <span class="tricetpet alegreya varM"><strong>Maloobchody:</strong><br></span>
     <span class="monsterat center tricet">
       <script>
         if (stupen === 1) {
@@ -170,7 +183,7 @@
           document.write("NaN");
         }
       </script>
-      <br><br><span class="tricetpet alegreya darkorange"><strong>Nákupní centra: </strong></span><br>
+      <br><br><span class="tricetpet alegreya varM"><strong>Nákupní centra: </strong></span><br>
     </span><span class="monsterat center tricet">
     <script>
        if (stupen === 1) {
