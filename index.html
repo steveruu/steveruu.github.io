@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <script>
-    var stupen = 3; // literally to, co řídí celou stránku :DDDDDD
+    var stupen = 4; // literally to, co řídí celou stránku :DDDDDD
     var cisloidkkcemualejetam = "41–60";
   </script>
 
@@ -43,6 +43,7 @@
  </span>
 </header>
 <!--<h1 class="russoone center forty">TOTO JE BETA VERZE PŘIPRAVOVANÉ STRÁNKY!</h1>-->
+<script src="js/index.js"></script>
 <h1 class="helvetica center forty">Aktuální stupeň PES:</h1>
   <h1 class="ubuntu pes center darkorange">
     <span id="output" class="var">
@@ -97,6 +98,43 @@
         if (stupen === 4) { document.write("61–75"); }
         if (stupen === 5) { document.write("76-100"); }
         else { document.write(); }
+      </script><script>
+        if (stupen === 1) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#00CD61');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'darkgreen'); }
+        else if (stupen === 2) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#F1D302');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'orange');
+        }
+        else if (stupen === 3) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#F75A1C');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'red')
+        }
+        else if (stupen === 4) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#D31145');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'darkred')
+        }
+        else if (stupen === 5) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#401089');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'purple');
+        }
+        else {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#00CD61');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', '#00CD61');
+        }
+
       </script>
     </span>
   </h1>
@@ -203,16 +241,9 @@
   </span>
   </div>
 <script>
-  // When the user scrolls the page, execute myFunction
   window.onscroll = function() {myFunction()};
-
-  // Get the header
   var header = document.getElementById("myHeader");
-
-  // Get the offset position of the navbar
   var sticky = header.offsetTop;
-
-  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
   function myFunction() {
     if (window.pageYOffset > sticky) {
       header.classList.add("sticky");
@@ -221,6 +252,7 @@
     }
   }
 </script>
+<script src="/js/main.js"></script>
 <br>
 <span class="center merriweather">
   <div>©2020, Štěpán Prchal</div>
