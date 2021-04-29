@@ -1,173 +1,52 @@
-.roboto {
-  font-family: 'Roboto', sans-serif;
-}
-.center {
-  text-align: center;
-}
-.majormonodisplay {
-  font-family: 'Major Mono Display', monospace;
-}
-.russoone {
-  font-family: 'Russo One', sans-serif;
-}
-.forty {
-  font-size: 40px;
-}
-.tricetpet {
-  font-size: 35px;
-}
-
-.tricet {
-  font-size: 30px;
-}
-
-.pes {
-  font-size: 300px;
-}
-
-.pesNumber {
-  font-size: 150px;
-}
-.ubuntu {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.orange {
-  color: orange;
-}
-
-.darkorange {
-  color: darkorange;
-}
-
-.red {
-  color: red;
-}
-
-.cyan {
-  color: cyan;
-}
-
-.pink {
-  color: pink;
-}
-:root {
-  --pescolor: #999999;
-}
-:root {
-  --pesMcolor: #999999;
-}
-
-
-.var {
-  color: var(--pescolor)
-}
-
-.varM {
-  color: var(--pesMcolor)
-}
-
 body {
-  background-color: #FFFFFF;
+    background-color: #121212;
+    text-align: center;
 }
 
-header {
-  background-color: #F9C289;
+h1 {
+    text-align: center;
+    color: #fffff5e5;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+span {
+    color: #20f3f3;
 }
 
-.helvetica {
-  font-family: Helvetica, Sans-Serif, serif
+h2 {
+    text-align: center;
+    color: #f3f3ede5;
 }
 
-.content {
-  padding: 16px;
+.deadprojects {
+    color: #00ff73;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+.asp {
+    color: #f3f58b;
 }
 
-.sticky + .content {
-  padding-top: 102px;
+.asp:hover + .p {
+    display: block;
 }
 
-.inside-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
-.page-header-image, .page-header-image-single,
-.post-image {
-  display: none;
-}
-.merriweather {
-  font-family: 'Merriweather Sans', sans-serif;
-}
-.alegreya {
-  font-family: 'Alegreya Sans', sans-serif;
-}
-.monsterat {
-  font-family: 'Quattrocento Sans', sans-serif;
-}
-.monsterat {
-  font-family: 'Montserrat', sans-serif;
-}
-.fixed {
-  width: 80px; /* fixed size you want */
-}
 a {
-  text-decoration: none;
-  color: black;
+    color: inherit;
+    text-decoration: none;
 }
 
-.pes1 {
-  color: #00CD61;
+.projects {
+    color: #00fff2;
 }
 
-.pes1m {
-  color: darkgreen;
+.things {
+    color: #ff6961;
 }
 
-.pes2 {
-  color: #F1D302;
+p {
+    color: #f3f3ede5;
 }
 
-.pes2m {
-  color: orange;
+.p {
+    display: none;
 }
-
-.pes3 {
-  color: #F75A1C;
-}
-
-.pes3m {
-  color: red;
-}
-
-.pes4 {
-  color: #D31145;
-}
-
-.pes4m {
-  color: darkred;
-}
-
-.pes5 {
-  color: #401089;
-}
-
-.pes5m {
-  color: purple;
-}
-
-.doprava {
-  text-align: right
-}
-

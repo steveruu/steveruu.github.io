@@ -1,0 +1,268 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <script>
+    var stupen = "IRELEVANTNÍ"; // literally to, co řídí celou stránku :DDDDDD
+    var cisloidkkcemualejetam = "PES JE MRTVEJ";
+  </script>
+   <script src="js/test.js"></script>
+   <script src="js/jquery.js">
+  console.log();
+  </script>
+
+  <title>AktualniStupenPES</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Merriweather+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="center inside-header" id="myHeader">
+  <span class="center tricetpet ubuntu inside-header fixed">
+    <a href="index.html">AktualniStupenPES</a>
+  </span>
+<br>
+  <span class="center tricet alegreya">
+    <a href="opatreni1.html">PES 1 |</a>
+    <a href="opatreni2.html">PES 2 |</a>
+    <a href="opatreni3.html">PES 3 |</a>
+    <a href="opatreni4.html">PES 4 |</a>
+    <a href="opatreni5.html">PES 5 |</a>
+ </span>
+</header>
+<!--<h1 class="russoone center forty">TOTO JE BETA VERZE PŘIPRAVOVANÉ STRÁNKY!</h1>-->
+<script src="js/index.js"></script>
+<h1 class="helvetica center forty">Aktuální stupeň PES:</h1>
+  <h1 class="ubuntu pes center darkorange">
+    <span id="output" class="var">
+      <script>
+        document.write(stupen);
+
+        if (stupen === 1) {
+          document.documentElement.style
+          .setProperty('--pescolor', '#00CD61');
+            document.documentElement.style
+            .setProperty('--pesMcolor', 'darkgreen'); }
+        else if (stupen === 2) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#F1D302');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'orange');
+        }
+        else if (stupen === 3) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#F75A1C');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'red')
+        }
+        else if (stupen === 4) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#D31145');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'darkred')
+        }
+        else if (stupen === 5) {
+          document.documentElement.style
+            .setProperty('--pescolor', '#401089');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'purple');
+        }
+        else {
+          document.documentElement.style
+            .setProperty('--pescolor', '#FF0000');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', '#FF0000');
+        }
+
+      </script>
+    </span>
+  </h1>
+  <h1 class="ubuntu pesNumber center darkorange">
+    <span class="var">
+      <script>
+        if (stupen === 1) { document.write("0–20"); }
+        if (stupen === 2) { document.write("21–40"); }
+        if (stupen === 3) { document.write("41–60"); }
+        if (stupen === 4) { document.write("61–75"); }
+        if (stupen === 5) { document.write("76-100"); }
+        else { document.write("PES JE MRTEV"); }
+      </script><script>
+        if (stupen === 1) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#00CD61');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'darkgreen'); }
+        else if (stupen === 2) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#F1D302');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'orange');
+        }
+        else if (stupen === 3) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#F75A1C');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'red')
+        }
+        else if (stupen === 4) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#D31145');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'darkred')
+        }
+        else if (stupen === 5) {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#401089');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', 'purple');
+        }
+        else {
+          document.documentElement.style
+                  .setProperty('--pescolor', '#FF0000');
+          document.documentElement.style
+                  .setProperty('--pesMcolor', '#FF0000');
+        }
+
+      </script>
+    </span>
+  </h1>
+  <h1 class="helvetica center forty">Aktuální opatření k tomuto stupni:</h1>
+  <div class="roboto center">
+    <span class="merriweather center forty var">
+      <strong>Roušky: </strong></span><br>
+    <span class="monsterat center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("Ve vymezených vnitřních prostorech a ve veřejné dopravě\n");
+        } else if (stupen === 2) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else if (stupen === 3) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else if (stupen === 4) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else if (stupen === 5) {
+          document.write("Ve všech vnitřních prostorech a ve vybraných veřejně přístupných místech");
+        } else {
+          document.write("PES JE MRTVEJ");
+        }
+      </script>
+    </span>
+  </div><br><br>
+  <div class="roboto center">
+    <span class="merriweather center forty var">
+      <strong>Shromažďování: </strong></span><br>
+    <span class="monsterat center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("500 osob venku, 100 uvnitř");
+        } else if (stupen === 2) {
+          document.write("100 osob venku, 50 osob uvnitř");
+        } else if (stupen === 3) {
+          document.write("50 osob venku, 10 osob uvnitř");
+        } else if (stupen === 4) {
+          document.write("6 osob");
+        } else if (stupen === 5) {
+          document.write("2 osoby");
+        } else {
+          document.write("PES JE MRTEV");
+        }
+      </script>
+    </span>
+  </div><br><br><div class="roboto center">
+    <span class="merriweather center forty var">
+      <strong>Školství: </strong></span><br>
+    <span class="monsterat center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("Prezenční výuka");
+        } else if (stupen === 2) {
+          document.write("Prezenční výuka");
+        } else if (stupen === 3) {
+          document.write("Prezenční výuka: MŠ, speciální školy a 1. stupeň ZŠ. Rotační prezenční výuka: 2. stupeň ZŠ, SŠ a VOŠ s výjimkami. Distanční výuka: VŠ s výjimkami; 1. ročníky prezenční výuka");
+        } else if (stupen === 4) {
+          document.write("Prezenční výuka: MŠ, speciální školy a 1. stupeň ZŠ. Rotační prezenční výuka: 2. stupeň ZŠ s výjimkami. Distanční výuka: SŠ, VOŠ a VŠ s výjimkami");
+        } else if (stupen === 5) {
+          document.write("Distanční výuka s výjimkou MŠ, speciálních škol a 1. a 2. ročníků ZŠ.");
+        } else {
+          document.write("PES JE MRTEV");
+        }
+      </script>
+    </span>
+  </div>
+  <br><br><div class="roboto center">
+  <span class="merriweather center forty var">
+      <strong>Obchody: </strong></span><br><br>
+      <span class="tricetpet alegreya varM"><strong>Maloobchody:</strong><br></span>
+    <span class="monsterat center tricet">
+      <script>
+        if (stupen === 1) {
+          document.write("4 osoby na 15m2, rozestupy 2m mezi zákazníky");
+        } else if (stupen === 2) {
+          document.write("2 osoby na 15m2, rozestupy 2m mezi zákazníky");
+        } else if (stupen === 3) {
+          document.write("1 osoba na 15m2, rozestupy 2m mezi zákazníky.");
+        } else if (stupen === 4) {
+          document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+        } else if (stupen === 5) {
+          document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+        } else {
+          document.write("PES JE MRTEV");
+        }
+      </script>
+      <br><br><span class="tricetpet alegreya varM"><strong>Nákupní centra: </strong></span><br>
+    </span><span class="monsterat center tricet">
+    <script>
+       if (stupen === 1) {
+         document.write("4 osoby na 15m2, rozestupy 2m mezi zákazníky");
+       } else if (stupen === 2) {
+         document.write("2 osoby na 15m2, rozestupy 2m mezi zákazníky. Omezení otevírací doby jídelních a dětských koutků do 22 hodin.");
+       } else if (stupen === 3) {
+         document.write("1 osoba na 15m2, rozestupy 2m mezi zákazníky. Omezení jídelních koutků pouze na výdejní okénko, uzavření dětských koutků.");
+       } else if (stupen === 4) {
+         document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+       } else if (stupen === 5) {
+         document.write("Prodej pouze základních potřeb, výdej vzdáleně objednaného zboží. 1 osoba na 15m2, rozestupy 2m mezi zákazníky");
+       } else {
+         document.write("PES JE MRTEV");
+       }
+    </script>
+  </span>
+  </div>
+<script>
+  window.onscroll = function() {myFunction()};
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    } 
+  }
+</script>
+<script src="/js/main.js"></script>
+<br>
+<span class="center merriweather">
+  <div>©2020, Štěpán Prchal <br>
+  <a href=https://github.com/steveruu>github.com/steveruu</a></div>
+<br><br><br><br>
+  <a href="danielek.html">secret</a>
+</span>
+</body>
+</html>
