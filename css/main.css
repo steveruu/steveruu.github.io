@@ -1,6 +1,7 @@
 body {
     background-color: #121212;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
@@ -9,7 +10,7 @@ h1 {
 }
 
 span {
-    color: #20f3f3;
+    color: #fffff5e5;
 }
 
 h2 {
@@ -42,3 +43,18 @@ p {
     color: #f3f3ede5;
 }
 
+.white {
+    color: #dd2a7b;
+}
+
+.blue {
+    color: #1DA1F2;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.steveruu {
+    color: #20f3f3;
+}
